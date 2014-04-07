@@ -18,7 +18,7 @@ NSArray *actions = [urlAction arrayURLActionsWithURL:url];
 
 NSLog(@"count=%d", actions.count); // 2
 NSLog(@"actions[0]=%@", actions[0]); // NLBTwitterURLAction
-NSLog(@"actions[0]=%@", actions[1]); // NLBTweetbotURLAction
+NSLog(@"actions[1]=%@", actions[1]); // NLBTweetbotURLAction
 
 NSObject<NLBURLActionProtocol> *action = (NSObject<NLBURLActionProtocol> *)actions[0];
 [action doActionURL:url]; // open Tweeter app with URL
