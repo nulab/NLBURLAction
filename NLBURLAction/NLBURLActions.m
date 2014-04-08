@@ -13,7 +13,6 @@ static NSArray *NLBURLActionsActionsClasses;
     NLBURLActionsActionsClasses = @[
         [NLBBacklogURLAction class],
         [NLBGoogleDriveURLAction class],
-        [NLBGoogleMapsURLAction class],
         [NLBTwitterURLAction class],
         [NLBTweetbotURLAction class],
         [NLBTypetalkURLAction class],
