@@ -28,6 +28,7 @@ NSObject<NLBURLActionProtocol> *action = (NSObject<NLBURLActionProtocol> *)actio
 ## Open in app
 - [Backlog](https://backlogtool.com/)
 - [Google Drive](https://itunes.apple.com/en/app/google-drive/id507874739?mt=8)
+- [Google Maps](https://itunes.apple.com/en/app/google-maps/id585027354?mt=8)
 - [Safari](https://www.apple.com/ios/)
 - [Twitter](https://itunes.apple.com/en/app/twitter/id333903271?mt=8)
 - [Tweetbot](https://itunes.apple.com/en/app/twitter/id333903271?mt=8)

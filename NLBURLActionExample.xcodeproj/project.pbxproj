@@ -27,12 +27,14 @@
 		490FAE6C18F04A0300431717 /* NLBURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FAE6718F04A0300431717 /* NLBURLAction.m */; };
 		5873410211C1953C99107685 /* NLBBacklogURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873499285404239631C456E /* NLBBacklogURLActionTest.m */; };
 		5873417293E9783B7F102EDA /* NLBSafariURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 587345BAADB29FA18192E99B /* NLBSafariURLAction.m */; };
+		587341B7115C9FF7A6DE6857 /* NLBGoogleMapsURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734A58723DF97B96943001 /* NLBGoogleMapsURLAction.m */; };
 		587341CB8A54CCB7E16BB21C /* NLBSafariURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 587345CCA814D1D3BC6BFA13 /* NLBSafariURLActionTest.m */; };
 		58734266CB0CFE5079C69CE6 /* NLBYoutubeURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873442539F3C72EEF23FF5B /* NLBYoutubeURLAction.m */; };
 		587342B45C4E85ECEFE50800 /* NLBURLActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734FA2FFFC90E57840C728 /* NLBURLActions.m */; };
 		587343E24E55654970F22AD2 /* NLBTypetalkURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734262F0DE905F8A483928 /* NLBTypetalkURLActionTest.m */; };
 		587345AF090618C0D68A4AED /* NLBPasteboardURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734E40E2C5ED7F4FD8EEF1 /* NLBPasteboardURLAction.m */; };
 		587345F41BFD99F45BAF8F92 /* NLBGoogleDriveURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734B4A7BD995794D2EA90A /* NLBGoogleDriveURLActionTest.m */; };
+		587346755C7C796546FC908D /* NLBGoogleMapsURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 587344FF3B75166EE15CB709 /* NLBGoogleMapsURLActionTest.m */; };
 		5873467A61A493E73AAD0374 /* NLBURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 587342D36449B6892F25AE8B /* NLBURLActionTest.m */; };
 		587347D87CEBC7A3960C064F /* NLBYoutubeURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734ABBEEA51FC44664F6EA /* NLBYoutubeURLActionTest.m */; };
 		587349717DD19FACBCF6728F /* NLBGoogleDriveURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 587349A62D51691FCE708BC3 /* NLBGoogleDriveURLAction.m */; };
@@ -91,6 +93,7 @@
 		587342D36449B6892F25AE8B /* NLBURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBURLActionTest.m; sourceTree = "<group>"; };
 		5873442539F3C72EEF23FF5B /* NLBYoutubeURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBYoutubeURLAction.m; path = NLBURLAction/NLBYoutubeURLAction.m; sourceTree = "<group>"; };
 		58734494F8962050C2937F37 /* NLBURLActionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBURLActionsTest.m; sourceTree = "<group>"; };
+		587344FF3B75166EE15CB709 /* NLBGoogleMapsURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBGoogleMapsURLActionTest.m; sourceTree = "<group>"; };
 		587345B2E0E241ADA2A0061B /* NLBYoutubeURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBYoutubeURLAction.h; path = NLBURLAction/NLBYoutubeURLAction.h; sourceTree = "<group>"; };
 		587345BAADB29FA18192E99B /* NLBSafariURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBSafariURLAction.m; path = NLBURLAction/NLBSafariURLAction.m; sourceTree = "<group>"; };
 		587345CCA814D1D3BC6BFA13 /* NLBSafariURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBSafariURLActionTest.m; sourceTree = "<group>"; };
@@ -99,8 +102,10 @@
 		5873491E0677C3DD54502B05 /* NLBPasteboardURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBPasteboardURLAction.h; path = NLBURLAction/NLBPasteboardURLAction.h; sourceTree = "<group>"; };
 		5873499285404239631C456E /* NLBBacklogURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBBacklogURLActionTest.m; sourceTree = "<group>"; };
 		587349A62D51691FCE708BC3 /* NLBGoogleDriveURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBGoogleDriveURLAction.m; path = NLBURLAction/NLBGoogleDriveURLAction.m; sourceTree = "<group>"; };
+		58734A58723DF97B96943001 /* NLBGoogleMapsURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBGoogleMapsURLAction.m; path = NLBURLAction/NLBGoogleMapsURLAction.m; sourceTree = "<group>"; };
 		58734ABBEEA51FC44664F6EA /* NLBYoutubeURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBYoutubeURLActionTest.m; sourceTree = "<group>"; };
 		58734B4A7BD995794D2EA90A /* NLBGoogleDriveURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBGoogleDriveURLActionTest.m; sourceTree = "<group>"; };
+		58734C05669CCE11C5A75057 /* NLBGoogleMapsURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBGoogleMapsURLAction.h; path = NLBURLAction/NLBGoogleMapsURLAction.h; sourceTree = "<group>"; };
 		58734C8FB619BF024EFDAFBC /* NLBTwitterURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBTwitterURLActionTest.m; sourceTree = "<group>"; };
 		58734DDC6086B3360623A0C9 /* NLBURLActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBURLActions.h; path = NLBURLAction/NLBURLActions.h; sourceTree = "<group>"; };
 		58734E40E2C5ED7F4FD8EEF1 /* NLBPasteboardURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBPasteboardURLAction.m; path = NLBURLAction/NLBPasteboardURLAction.m; sourceTree = "<group>"; };
@@ -238,6 +243,8 @@
 				5873442539F3C72EEF23FF5B /* NLBYoutubeURLAction.m */,
 				58734DDC6086B3360623A0C9 /* NLBURLActions.h */,
 				58734FA2FFFC90E57840C728 /* NLBURLActions.m */,
+				58734C05669CCE11C5A75057 /* NLBGoogleMapsURLAction.h */,
+				58734A58723DF97B96943001 /* NLBGoogleMapsURLAction.m */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -273,6 +280,7 @@
 				58734262F0DE905F8A483928 /* NLBTypetalkURLActionTest.m */,
 				58734ABBEEA51FC44664F6EA /* NLBYoutubeURLActionTest.m */,
 				58734494F8962050C2937F37 /* NLBURLActionsTest.m */,
+				587344FF3B75166EE15CB709 /* NLBGoogleMapsURLActionTest.m */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -389,6 +397,7 @@
 				58734CF53F428081ACD0635F /* NLBTypetalkURLAction.m in Sources */,
 				58734266CB0CFE5079C69CE6 /* NLBYoutubeURLAction.m in Sources */,
 				587342B45C4E85ECEFE50800 /* NLBURLActions.m in Sources */,
+				587341B7115C9FF7A6DE6857 /* NLBGoogleMapsURLAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +416,7 @@
 				587343E24E55654970F22AD2 /* NLBTypetalkURLActionTest.m in Sources */,
 				587347D87CEBC7A3960C064F /* NLBYoutubeURLActionTest.m in Sources */,
 				58734DBBD8D72123622C49DC /* NLBURLActionsTest.m in Sources */,
+				587346755C7C796546FC908D /* NLBGoogleMapsURLActionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@
 #import <Foundation/Foundation.h>
 #import "NLBBacklogURLAction.h"
 #import "NLBGoogleDriveURLAction.h"
+#import "NLBGoogleMapsURLAction.h"
 #import "NLBPasteboardURLAction.h"
 #import "NLBSafariURLAction.h"
 #import "NLBTweetbotURLAction.h"
