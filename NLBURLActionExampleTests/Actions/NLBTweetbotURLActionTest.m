@@ -38,4 +38,10 @@
     XCTAssertNil(url.absoluteString);
 }
 
+- (void)testMobileStatusCustomSchemeURLWithURLSuccess {
+    NLBTweetbotURLAction *action = [[NLBTweetbotURLAction alloc] init];
+    NSURL *url = [action customSchemeURLWithURL:[NSURL URLWithString:@"https://mobile.twitter.com/agata/status/451892810430439424?screen_name=agata"]];
+    XCTAssertEqualObjects(@"tweetbot://agata/status/451892810430439424", url.absoluteString);
+}
+
 @end

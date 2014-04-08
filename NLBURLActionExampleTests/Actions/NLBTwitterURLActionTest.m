@@ -37,4 +37,11 @@
     XCTAssertNil(url.absoluteString);
 }
 
+- (void)testMobileStatusCustomSchemeURLWithURLSuccess {
+    NLBTwitterURLAction *action = [[NLBTwitterURLAction alloc] init];
+    NSURL *url = [action customSchemeURLWithURL:[NSURL URLWithString:@"https://mobile.twitter.com/agata/status/451892810430439424?screen_name=agata"]];
+    XCTAssertEqualObjects(@"twitter://status?id=451892810430439424", url.absoluteString);
+}
+
+
 @end

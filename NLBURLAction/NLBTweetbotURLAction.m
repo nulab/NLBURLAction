@@ -15,16 +15,16 @@
     static NSRegularExpression* regex;
     if (!regex) {
         regex = [NSRegularExpression
-            regularExpressionWithPattern:@"^https?[:]//twitter[.]com/([a-zA-Z0-9_]+)(/status/([0-9]+))?$"
+            regularExpressionWithPattern:@"^https?[:]//(mobile[.])?twitter[.]com/([a-zA-Z0-9_]+)(/status/([0-9]+))?[?]?"
                                  options:0 error:nil];
     }
     NSTextCheckingResult *match = [regex firstMatchInString:url.absoluteString options:NSMatchingReportProgress range:NSMakeRange(0, url.absoluteString.length)];
-    if (match.numberOfRanges == 4 && [match rangeAtIndex:2].length == 0) {
-        NSString *user = [url.absoluteString substringWithRange:[match rangeAtIndex:1]];
+    if (match.numberOfRanges == 5 && [match rangeAtIndex:3].length == 0) {
+        NSString *user = [url.absoluteString substringWithRange:[match rangeAtIndex:2]];
         return [self appendCallbackURL:[NSURL URLWithString:[NSString stringWithFormat:@"tweetbot://%@/user_profile/%@", user, user]]];
-    } else if (match.numberOfRanges == 4 && [match rangeAtIndex:2].length > 0) {
-        NSString *user = [url.absoluteString substringWithRange:[match rangeAtIndex:1]];
-        NSString *statusId = [url.absoluteString substringWithRange:[match rangeAtIndex:3]];
+    } else if (match.numberOfRanges == 5 && [match rangeAtIndex:3].length > 0) {
+        NSString *user = [url.absoluteString substringWithRange:[match rangeAtIndex:2]];
+        NSString *statusId = [url.absoluteString substringWithRange:[match rangeAtIndex:4]];
         return [self appendCallbackURL:[NSURL URLWithString:[NSString stringWithFormat:@"tweetbot://%@/status/%@", user, statusId]]];
     } else {
         return nil;
