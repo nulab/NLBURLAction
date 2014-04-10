@@ -1,6 +1,8 @@
 # NLBURLAction
 NLBURLAction is a library for to open a custom scheme URL.
 
+![Screenshot](screenshot.png "Screenshot")
+
 # Used in Production
 - [Typetalk](https://itunes.apple.com/en/app/typetalk/id756503889?mt=8)
 
