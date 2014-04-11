@@ -1,5 +1,5 @@
 # NLBURLAction
-NLBURLAction is a library for to open a custom scheme URL.
+NLBURLAction is a library to open custom scheme URLs easily. It can convert URL to custom scheme URL.
 
 ![Screenshot](screenshot.png "Screenshot")
 
@@ -11,7 +11,7 @@ NLBURLAction is a library for to open a custom scheme URL.
 - ARC
 
 # Usage
-Instance `NLBURLAction` and register class for `NLBURLActionProtocol`.
+Instance `NLBURLAction` and register classes following `NLBURLActionProtocol`.
 
 ```objc
 NSURL *url = [NSURL URLWithString:@"https://twitter.com/agata/status/451892810430439424"];
