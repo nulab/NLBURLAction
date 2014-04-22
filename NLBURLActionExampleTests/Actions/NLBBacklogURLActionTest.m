@@ -16,7 +16,7 @@
 - (void)testCustomSchemeURLWithURLSuccess {
     NLBBacklogURLAction *action = [[NLBBacklogURLAction alloc] init];
     NSURL *url = [action customSchemeURLWithURL:[NSURL URLWithString:@"https://example.backlog.jp/view/NLB-123"]];
-    XCTAssertEqualObjects(@"nulabbacklog://issue/NLB-123", url.absoluteString);
+    XCTAssertEqualObjects(@"nulabbacklog://example.backlog.jp/issue/NLB-123", url.absoluteString);
 }
 
 - (void)testCustomSchemeURLWithURLDontGetCustomSchemeURL {
