@@ -15,12 +15,12 @@
 
 - (void)testActionClasses {
     NSArray *classes = [NLBURLActions actionClasses];
-    XCTAssertEqual(7, classes.count);
+    XCTAssertEqual(10, classes.count);
 }
 
 - (void)testActionClassesWithExcludeActionClasses {
     NSArray *classes = [NLBURLActions actionClassesWithExcludeActionClasses:@[[NLBPasteboardURLAction class]]];
-    XCTAssertEqual(6, classes.count);
+    XCTAssertEqual(9, classes.count);
     XCTAssertEqual(false, [classes containsObject:[NLBPasteboardURLAction class]]);
 }
 

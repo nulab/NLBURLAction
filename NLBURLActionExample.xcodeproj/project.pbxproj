@@ -31,15 +31,19 @@
 		58734266CB0CFE5079C69CE6 /* NLBYoutubeURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873442539F3C72EEF23FF5B /* NLBYoutubeURLAction.m */; };
 		587342B45C4E85ECEFE50800 /* NLBURLActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734FA2FFFC90E57840C728 /* NLBURLActions.m */; };
 		587343E24E55654970F22AD2 /* NLBTypetalkURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734262F0DE905F8A483928 /* NLBTypetalkURLActionTest.m */; };
+		587344C91329E17DE11CB44E /* NLBGoogleDocsURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 587346782A2C5C9D7C65BB76 /* NLBGoogleDocsURLActionTest.m */; };
 		587345AF090618C0D68A4AED /* NLBPasteboardURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734E40E2C5ED7F4FD8EEF1 /* NLBPasteboardURLAction.m */; };
+		587345B17BEEDF1550A2CB09 /* NLBGoogleSheetsURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 587346CCF155DF4B0197BFD7 /* NLBGoogleSheetsURLAction.m */; };
 		587345F41BFD99F45BAF8F92 /* NLBGoogleDriveURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734B4A7BD995794D2EA90A /* NLBGoogleDriveURLActionTest.m */; };
 		5873467A61A493E73AAD0374 /* NLBURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 587342D36449B6892F25AE8B /* NLBURLActionTest.m */; };
 		587347D87CEBC7A3960C064F /* NLBYoutubeURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734ABBEEA51FC44664F6EA /* NLBYoutubeURLActionTest.m */; };
+		5873494FD013543400E78897 /* NLBGoogleDocsURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734632B5BA9E3B744436A0 /* NLBGoogleDocsURLAction.m */; };
 		587349717DD19FACBCF6728F /* NLBGoogleDriveURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 587349A62D51691FCE708BC3 /* NLBGoogleDriveURLAction.m */; };
 		58734978BAE1AA7125D10D03 /* NLBTwitterURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734C8FB619BF024EFDAFBC /* NLBTwitterURLActionTest.m */; };
 		58734ACAC60892F467BB25DB /* NLBURLActionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873423616307D99445CA165 /* NLBURLActionExampleTests.m */; };
 		58734CF53F428081ACD0635F /* NLBTypetalkURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 587341237B92A5443D9767C5 /* NLBTypetalkURLAction.m */; };
 		58734DBBD8D72123622C49DC /* NLBURLActionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734494F8962050C2937F37 /* NLBURLActionsTest.m */; };
+		58734DC7C89703BECF7181C6 /* NLBGoogleSheetsURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734167F28A3484CC10EB79 /* NLBGoogleSheetsURLActionTest.m */; };
 		58734DEA8E9D4AC59647ECB8 /* NLBTweetbotURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873462EA6ED9C762D9F4576 /* NLBTweetbotURLActionTest.m */; };
 		58734F68C1E837BC13CA5DCA /* NLBPasteboardURLActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58734F3363A5B486AB997391 /* NLBPasteboardURLActionTest.m */; };
 /* End PBXBuildFile section */
@@ -85,16 +89,22 @@
 		490FAE6718F04A0300431717 /* NLBURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBURLAction.m; path = NLBURLAction/NLBURLAction.m; sourceTree = "<group>"; };
 		5873400DB4DBC3444F46B1A1 /* NLBSafariURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBSafariURLAction.h; path = NLBURLAction/NLBSafariURLAction.h; sourceTree = "<group>"; };
 		587341237B92A5443D9767C5 /* NLBTypetalkURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBTypetalkURLAction.m; path = NLBURLAction/NLBTypetalkURLAction.m; sourceTree = "<group>"; };
+		58734167F28A3484CC10EB79 /* NLBGoogleSheetsURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBGoogleSheetsURLActionTest.m; sourceTree = "<group>"; };
 		587341A5C4F482F23D562871 /* NLBGoogleDriveURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBGoogleDriveURLAction.h; path = NLBURLAction/NLBGoogleDriveURLAction.h; sourceTree = "<group>"; };
+		587341F323B405CF0DAEFE8D /* NLBGoogleSheetsURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBGoogleSheetsURLAction.h; path = NLBURLAction/NLBGoogleSheetsURLAction.h; sourceTree = "<group>"; };
 		5873423616307D99445CA165 /* NLBURLActionExampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBURLActionExampleTests.m; sourceTree = "<group>"; };
 		58734262F0DE905F8A483928 /* NLBTypetalkURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBTypetalkURLActionTest.m; sourceTree = "<group>"; };
 		587342D36449B6892F25AE8B /* NLBURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBURLActionTest.m; sourceTree = "<group>"; };
+		587343490F14110D7FD208D3 /* NLBGoogleDocsURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBGoogleDocsURLAction.h; path = NLBURLAction/NLBGoogleDocsURLAction.h; sourceTree = "<group>"; };
 		5873442539F3C72EEF23FF5B /* NLBYoutubeURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBYoutubeURLAction.m; path = NLBURLAction/NLBYoutubeURLAction.m; sourceTree = "<group>"; };
 		58734494F8962050C2937F37 /* NLBURLActionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBURLActionsTest.m; sourceTree = "<group>"; };
 		587345B2E0E241ADA2A0061B /* NLBYoutubeURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBYoutubeURLAction.h; path = NLBURLAction/NLBYoutubeURLAction.h; sourceTree = "<group>"; };
 		587345BAADB29FA18192E99B /* NLBSafariURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBSafariURLAction.m; path = NLBURLAction/NLBSafariURLAction.m; sourceTree = "<group>"; };
 		587345CCA814D1D3BC6BFA13 /* NLBSafariURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBSafariURLActionTest.m; sourceTree = "<group>"; };
 		5873462EA6ED9C762D9F4576 /* NLBTweetbotURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBTweetbotURLActionTest.m; sourceTree = "<group>"; };
+		58734632B5BA9E3B744436A0 /* NLBGoogleDocsURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBGoogleDocsURLAction.m; path = NLBURLAction/NLBGoogleDocsURLAction.m; sourceTree = "<group>"; };
+		587346782A2C5C9D7C65BB76 /* NLBGoogleDocsURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBGoogleDocsURLActionTest.m; sourceTree = "<group>"; };
+		587346CCF155DF4B0197BFD7 /* NLBGoogleSheetsURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBGoogleSheetsURLAction.m; path = NLBURLAction/NLBGoogleSheetsURLAction.m; sourceTree = "<group>"; };
 		587347E49BCBBBC3EF9BE602 /* NLBTypetalkURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBTypetalkURLAction.h; path = NLBURLAction/NLBTypetalkURLAction.h; sourceTree = "<group>"; };
 		5873491E0677C3DD54502B05 /* NLBPasteboardURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBPasteboardURLAction.h; path = NLBURLAction/NLBPasteboardURLAction.h; sourceTree = "<group>"; };
 		5873499285404239631C456E /* NLBBacklogURLActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLBBacklogURLActionTest.m; sourceTree = "<group>"; };
@@ -238,6 +248,10 @@
 				5873442539F3C72EEF23FF5B /* NLBYoutubeURLAction.m */,
 				58734DDC6086B3360623A0C9 /* NLBURLActions.h */,
 				58734FA2FFFC90E57840C728 /* NLBURLActions.m */,
+				587346CCF155DF4B0197BFD7 /* NLBGoogleSheetsURLAction.m */,
+				587341F323B405CF0DAEFE8D /* NLBGoogleSheetsURLAction.h */,
+				587343490F14110D7FD208D3 /* NLBGoogleDocsURLAction.h */,
+				58734632B5BA9E3B744436A0 /* NLBGoogleDocsURLAction.m */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -273,6 +287,8 @@
 				58734262F0DE905F8A483928 /* NLBTypetalkURLActionTest.m */,
 				58734ABBEEA51FC44664F6EA /* NLBYoutubeURLActionTest.m */,
 				58734494F8962050C2937F37 /* NLBURLActionsTest.m */,
+				58734167F28A3484CC10EB79 /* NLBGoogleSheetsURLActionTest.m */,
+				587346782A2C5C9D7C65BB76 /* NLBGoogleDocsURLActionTest.m */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -389,6 +405,8 @@
 				58734CF53F428081ACD0635F /* NLBTypetalkURLAction.m in Sources */,
 				58734266CB0CFE5079C69CE6 /* NLBYoutubeURLAction.m in Sources */,
 				587342B45C4E85ECEFE50800 /* NLBURLActions.m in Sources */,
+				587345B17BEEDF1550A2CB09 /* NLBGoogleSheetsURLAction.m in Sources */,
+				5873494FD013543400E78897 /* NLBGoogleDocsURLAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +425,8 @@
 				587343E24E55654970F22AD2 /* NLBTypetalkURLActionTest.m in Sources */,
 				587347D87CEBC7A3960C064F /* NLBYoutubeURLActionTest.m in Sources */,
 				58734DBBD8D72123622C49DC /* NLBURLActionsTest.m in Sources */,
+				58734DC7C89703BECF7181C6 /* NLBGoogleSheetsURLActionTest.m in Sources */,
+				587344C91329E17DE11CB44E /* NLBGoogleDocsURLActionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

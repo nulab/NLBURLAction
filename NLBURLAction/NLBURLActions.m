@@ -12,6 +12,8 @@ static NSArray *NLBURLActionsActionsClasses;
 + (void)initialize {
     NLBURLActionsActionsClasses = @[
         [NLBBacklogURLAction class],
+        [NLBGoogleSheetsURLAction class],
+        [NLBGoogleDocsURLAction class],
         [NLBGoogleDriveURLAction class],
         [NLBTwitterURLAction class],
         [NLBTweetbotURLAction class],
