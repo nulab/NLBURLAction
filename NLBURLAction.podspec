@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NLBURLAction"
-  s.version      = "0.1.5"
+  s.version      = "0.1.6"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = "NLBURLAction is a library to open custom scheme URLs easily. It can convert URL to custom scheme URL."
   s.homepage     = "https://github.com/nulab/NLBURLAction"
